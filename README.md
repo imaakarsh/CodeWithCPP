@@ -1,3 +1,4 @@
+
 # CodeWithCPP
 
 A comprehensive, beginner-friendly repository dedicated to mastering C++ programming from scratch. Whether you are starting your coding journey or brushing up on core computer science concepts, this repository serves as a structured guide to learning C++ through practical, well-commented code examples.
@@ -57,70 +58,77 @@ To run the programs locally, you need a C++ compiler installed on your system.
 * Download and install [MinGW-w64](https://www.mingw-w64.org/).
 * Add the `bin` folder path to your system's Environment Variables (`PATH`).
 * Verify installation:
-  ```bash
+  bash
   g++ --version
-  ```
+  
 
 #### 2. macOS (Clang)
 * Install Xcode Command Line Tools:
-  ```bash
+  bash
   xcode-select --install
-  ```
+  
 
 #### 3. Linux (GCC)
 * Install build-essential package:
-  ```bash
+  bash
   sudo apt update
   sudo apt install build-essential
-  ```
+  
 
 ---
 
 ### Installation
 
 1. Clone the repository to your local machine:
-   ```bash
+   bash
    git clone https://github.com/imaakarsh/CodeWithCPP.git
-   ```
+   
 
 2. Navigate into the project directory:
-   ```bash
+   bash
    cd CodeWithCPP
-   ```
+   
 
 ---
 
 ### Compilation & Execution
 
+#### Option 1: Using VS Code (Windows)
+This repository includes a pre-configured build task (`.vscode/tasks.json`) to compile active files using `g++.exe`.
+1. Open the repository in VS Code.
+2. Open the C++ file you want to run (e.g., `Basic-C++/Variable-Datatypes/Variable-DataTypes.cpp`).
+3. Press `Ctrl+Shift+B` to build the active file.
+4. Run the generated `.exe` file from your terminal.
+
+#### Option 2: Manual Compilation
 To compile and run any C++ program manually using the terminal:
 
 1. Navigate to the directory containing the source file:
-   ```bash
+   bash
    cd Basic-C++
-   ```
+   
 
 2. Compile the source code using `g++`:
-   ```bash
+   bash
    g++ NamsteDuniya.cpp -o NamsteDuniya
-   ```
+   
 
 3. Run the compiled executable:
    * **Windows:**
-     ```bash
+     bash
      NamsteDuniya.exe
-     ```
+     
    * **Linux / macOS:**
-     ```bash
+     bash
      ./NamsteDuniya
-     ```
+     
 
 ---
-
 ## 💻 Usage Example
 
-Here is a look at our entry-level program, `NamsteDuniya.cpp`:
+### 1. Hello World (`NamsteDuniya.cpp`)
 
-```cpp
+cpp
 #include <iostream>
 using namespace std;
 
@@ -131,15 +139,47 @@ int main()
 
     return 0;
 }
-```
 
-### Expected Output:
-```text
+
+#### Expected Output:
+text
 Hello Duniya
-```
+
 
 ---
 
+### 2. Variables & Data Types (`Variable-DataTypes.cpp`)
+
+cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // variable define
+    int marks = 100;
+    cout << "My Marks is:" << marks;
+
+    // declarition
+    int age;
+
+    // defination
+    int age = 21;
+    cout << age;
+
+    // manipulation or updation
+    age = 23;
+    
+    return 0;
+}
+
+
+#### Expected Output:
+text
+My Marks is:10021
+
+
+---
 ## 🗺️ Roadmap & Learning Path
 
 This repository is continuously updated. Below is the planned progression of topics:
