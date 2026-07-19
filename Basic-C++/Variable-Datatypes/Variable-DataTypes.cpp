@@ -18,19 +18,25 @@ int main()
     // age = 23;
 
     // int
-    int count = 5;
-    // float
-    float share = 3.455;
-    // char
-    char alpha = 'z';
-    // double
-    double w = 55.69887;
-    // boolean
-    bool isMale = true;
+//     int count = 5;
+//     // float
+//     float share = 3.455;
+//     // char
+//     char alpha = 'z';
+//     // double
+//     double w = 55.69887;
+//     // boolean
+//     bool isMale = true;
 
-    cout << count << endl ;
-    cout << share << endl ;
-    cout << alpha << endl ;
-    cout << w << endl ;
-    return 0;
-}
+//     cout << count << endl ;
+//     cout << share << endl ;
+//     cout << alpha << endl ;
+//     cout << w << endl ;
+
+    int age = 12;
+    {
+        int age =3;
+    }
+
+  return 0;
+ }
