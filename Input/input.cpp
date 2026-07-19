@@ -5,7 +5,7 @@ int main()
 {
     int age;
     cout << "enter the age: ";
-    cin >> age;
+    cin >> age; 
     cout << age << endl;
     return 0;
 }
