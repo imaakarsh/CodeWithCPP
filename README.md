@@ -1,13 +1,12 @@
 
-# CodeWithCPP
+# 💻 CodeWithCPP
 
 A comprehensive, beginner-friendly repository dedicated to mastering C++ programming from scratch. Whether you are starting your coding journey or brushing up on core computer science concepts, this repository serves as a structured guide to learning C++ through practical, well-commented code examples.
 
 ---
-
 ## 🚀 Overview
 
-`CodeWithCPP` is an educational repository designed to help developers and students learn C++ systematically. Starting from the absolute basics—like the classic "Hello World" (Namaste Duniya) and variables—the repository is structured to scale up to advanced topics, including Object-Oriented Programming (OOPs), Data Structures, and Algorithms (DSA).
+`CodeWithCPP` is an educational repository designed to help developers and students learn C++ systematically. Starting from the absolute basics—like the classic "Hello World" (Namaste Duniya), variables, and user input—the repository is structured to scale up to advanced topics, including Object-Oriented Programming (OOPs), Data Structures, and Algorithms (DSA).
 
 ### Why C++?
 * **Performance:** High-performance, system-level programming language.
