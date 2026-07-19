@@ -7,7 +7,7 @@ A comprehensive, beginner-friendly repository dedicated to mastering C++ program
 
 ## 🚀 Overview
 
-`CodeWithCPP` is an educational repository designed to help developers and students learn C++ systematically. Starting from the absolute basics—like the classic "Hello World" (Namaste Duniya)—the repository is structured to scale up to advanced topics, including Object-Oriented Programming (OOPs), Data Structures, and Algorithms (DSA).
+`CodeWithCPP` is an educational repository designed to help developers and students learn C++ systematically. Starting from the absolute basics—like the classic "Hello World" (Namaste Duniya) and variables—the repository is structured to scale up to advanced topics, including Object-Oriented Programming (OOPs), Data Structures, and Algorithms (DSA).
 
 ### Why C++?
 * **Performance:** High-performance, system-level programming language.
@@ -15,16 +15,14 @@ A comprehensive, beginner-friendly repository dedicated to mastering C++ program
 * **Industry Standard:** Widely used in game development, operating systems, embedded systems, and competitive programming.
 
 ---
-
 ## ✨ Features
 
-- 📚 **Structured Learning Path:** Organized directories moving from basic syntax to complex algorithms.
+- 📚 **Structured Learning Path:** Organized directories moving from basic syntax (like variables and data types) to complex algorithms.
 - 💻 **Ready-to-Run Code:** Clean, compiled, and tested C++ source files.
 - 📝 **Detailed Comments:** Every program includes inline documentation explaining the logic.
 - 🛠️ **Multi-Platform Support:** Code can be compiled and executed on Windows, macOS, and Linux.
 
 ---
-
 ## 🛠️ Tech Stack
 
 * **Language:** C++ (C++11 / C++17 / C++20 standards)
@@ -38,16 +36,20 @@ A comprehensive, beginner-friendly repository dedicated to mastering C++ program
 
 ## 📂 Repository Structure
 
-```text
+text
 CodeWithCPP/
-├── Basic-C++/                  # Core syntax, variables, and basic I/O
+├── .vscode/
+│   └── tasks.json              # VS Code build tasks configuration
+├── Basic-C++/
 │   ├── NamsteDuniya.cpp        # The classic "Hello World" program
-│   └── NamsteDuniya.exe        # Compiled executable (Windows)
+│   ├── NamsteDuniya.exe        # Compiled executable (Windows)
+│   └── Variable-Datatypes/
+│       ├── Variable-DataTypes.cpp # Variable declaration, definition, and manipulation
+│       └── Variable-DataTypes.exe # Compiled executable (Windows)
 └── README.md                   # Project documentation
-```
+
 
 ---
-
 ## 🚀 Getting Started
 
 ### Prerequisites
