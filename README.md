@@ -41,14 +41,21 @@ CodeWithCPP/
 │   └── tasks.json              # VS Code build tasks configuration
 ├── Basic-C++/
 │   ├── NamsteDuniya.cpp        # The classic "Hello World" program
-│   ├── NamsteDuniya.exe        # Compiled executable (Windows)
-│   └── Variable-Datatypes/
-│       ├── Variable-DataTypes.cpp # Variable declaration, definition, and manipulation
-│       └── Variable-DataTypes.exe # Compiled executable (Windows)
+│   └── NamsteDuniya.exe        # Compiled executable (Windows)
+├── ControlFlowStatemwnt/
+│   ├── SwitchCase/
+│   │   ├── 1.cpp               # Grade evaluation using switch-case
+│   │   └── 1.exe               # Compiled executable (Windows)
+│   ├── main.cpp                # Control flow statements main program
+│   └── main.exe                # Compiled executable (Windows)
+├── Input/
+│   ├── input.cpp               # Handling user input
+│   └── input.exe               # Compiled executable (Windows)
+├── Variable-Datatypes/
+│   ├── Variable-DataTypes.cpp  # Variable declaration, definition, and manipulation
+│   └── Variable-DataTypes.exe  # Compiled executable (Windows)
 └── README.md                   # Project documentation
 
-
----
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -181,6 +188,68 @@ My Marks is:10021
 
 
 ---
+
+### 3. Grade Evaluation using Switch-Case (`ControlFlowStatemwnt/SwitchCase/1.cpp`)
+
+cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    char grad;
+    cout << "enter your grade" << endl;
+    cin >> grad;
+
+    // if (grad == 'A')
+    // {
+    //     cout << "ur marks in range 90" << endl;
+    // }
+    // else if (grad == 'B')
+    // {
+    //     cout << "ur marks in range 80" << endl;
+    // }
+    // else if (grad == 'C')
+    // {
+    //     cout << "ur marks in range 70" << endl;
+    // }
+    // else if (grad == 'D')
+    // {
+    //     cout << "ur marks in range 60" << endl;
+    // }
+    // else
+    // {
+    //     cout << "ur marks in range 50" << endl;
+    // }
+
+    switch (grad)
+    {
+    case 'A':
+        cout << "ur marks in range 90" << endl;
+        break;
+    case 'B':
+        cout << "ur marks in range 80" << endl;
+        break;
+    case 'C':
+        cout << "ur marks in range 70" << endl;
+        break;
+    case 'D':
+        cout << "ur marks in range 60" << endl;
+        break;
+    default:
+        cout << "ur marks in range 50" << endl;
+    }
+    return 0;
+}
+
+
+#### Expected Output:
+text
+enter your grade
+B
+ur marks in range 80
+
 ## 🗺️ Roadmap & Learning Path
 
 This repository is continuously updated. Below is the planned progression of topics:
