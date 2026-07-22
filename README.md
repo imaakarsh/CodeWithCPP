@@ -20,6 +20,8 @@ A comprehensive, beginner-friendly repository dedicated to mastering C++ program
 - 💻 **Ready-to-Run Code:** Clean, compiled, and tested C++ source files.
 - 📝 **Detailed Comments:** Every program includes inline documentation explaining the logic.
 - 🛠️ **Multi-Platform Support:** Code can be compiled and executed on Windows, macOS, and Linux.
+- 🎯 **Ternary Operator Example:** Demonstrates conditional output using the ternary operator.
+- 🔁 **Loop Counting Example:** Shows a for-loop counting from 51 to 69.
 
 ---
 ## 🛠️ Tech Stack
@@ -35,7 +37,6 @@ A comprehensive, beginner-friendly repository dedicated to mastering C++ program
 
 ## 📂 Repository Structure
 
-text
 CodeWithCPP/
 ├── .vscode/
 │   └── tasks.json              # VS Code build tasks configuration
@@ -51,11 +52,16 @@ CodeWithCPP/
 ├── Input/
 │   ├── input.cpp               # Handling user input
 │   └── input.exe               # Compiled executable (Windows)
+├── Loops/
+│   ├── main.cpp                # Loop counting example (51 to 69)
+│   └── main.exe                # Compiled executable (Windows)
+├── TernaryOpertaors/
+│   ├── ternary.cpp             # Ternary operator example
+│   └── ternary.exe             # Compiled executable (Windows)
 ├── Variable-Datatypes/
 │   ├── Variable-DataTypes.cpp  # Variable declaration, definition, and manipulation
 │   └── Variable-DataTypes.exe  # Compiled executable (Windows)
 └── README.md                   # Project documentation
-
 ## 🚀 Getting Started
 
 ### Prerequisites
