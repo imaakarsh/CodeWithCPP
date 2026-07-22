@@ -34,7 +34,6 @@ A comprehensive, beginner-friendly repository dedicated to mastering C++ program
 * **Build Tools:** Command-line compilation, VS Code integration
 
 ---
-
 ## 📂 Repository Structure
 
 CodeWithCPP/
