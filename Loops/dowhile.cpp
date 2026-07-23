@@ -1,20 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    int i =1;
+int main()
+{
+    int i = 1;
     do
     {
         cout << i << "";
-        i = i+1;
-    } while (i<=5);
+        i = i++;
+    } while (i <= 5);
     cout << endl;
-    
-
-
-
-
-
 
     return 0;
 }
