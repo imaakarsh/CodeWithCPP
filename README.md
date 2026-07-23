@@ -22,6 +22,8 @@ A comprehensive, beginner-friendly repository dedicated to mastering C++ program
 - 🛠️ **Multi-Platform Support:** Code can be compiled and executed on Windows, macOS, and Linux.
 - 🎯 **Ternary Operator Example:** Demonstrates conditional output using the ternary operator.
 - 🔁 **Loop Counting Example:** Shows a for-loop counting from 51 to 69.
+- 🔁 **Do‑While Loop Example:** Illustrates a do‑while loop with correct increment logic.
+- ⚙️ **Pre‑Increment Operator Example:** Demonstrates the use of the pre‑increment operator (++a).
 
 ---
 ## 🛠️ Tech Stack
@@ -53,6 +55,11 @@ CodeWithCPP/
 │   └── input.exe               # Compiled executable (Windows)
 ├── Loops/
 │   ├── main.cpp                # Loop counting example (51 to 69)
+│   ├── main.exe                # Compiled executable (Windows)
+│   ├── dowhile.cpp             # Do‑while loop example with proper increment
+│   └── dowhile.exe             # Compiled executable (Windows)
+├── Operators/
+│   ├── main.cpp                # Pre‑increment operator demonstration
 │   └── main.exe                # Compiled executable (Windows)
 ├── TernaryOpertaors/
 │   ├── ternary.cpp             # Ternary operator example
@@ -153,11 +160,9 @@ int main()
     return 0;
 }
 
-
 #### Expected Output:
 text
 Hello Duniya
-
 
 ---
 
@@ -186,11 +191,9 @@ int main()
     return 0;
 }
 
-
 #### Expected Output:
 text
 My Marks is:10021
-
 
 ---
 
@@ -206,27 +209,6 @@ int main()
     char grad;
     cout << "enter your grade" << endl;
     cin >> grad;
-
-    // if (grad == 'A')
-    // {
-    //     cout << "ur marks in range 90" << endl;
-    // }
-    // else if (grad == 'B')
-    // {
-    //     cout << "ur marks in range 80" << endl;
-    // }
-    // else if (grad == 'C')
-    // {
-    //     cout << "ur marks in range 70" << endl;
-    // }
-    // else if (grad == 'D')
-    // {
-    //     cout << "ur marks in range 60" << endl;
-    // }
-    // else
-    // {
-    //     cout << "ur marks in range 50" << endl;
-    // }
 
     switch (grad)
     {
@@ -248,12 +230,56 @@ int main()
     return 0;
 }
 
-
 #### Expected Output:
 text
 enter your grade
 B
 ur marks in range 80
+
+---
+
+### 4. Do‑While Loop (`Loops/dowhile.cpp`)
+
+cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i = 1;
+    do
+    {
+        cout << i << "";
+        i++;
+    } while (i <= 5);
+    cout << endl;
+
+    return 0;
+}
+
+#### Expected Output:
+text
+12345
+
+---
+
+### 5. Pre‑Increment Operator (`Operators/main.cpp`)
+
+cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 5;
+    cout << ++a << endl;
+
+    return 0;
+}
+
+#### Expected Output:
+text
+6
 
 ## 🗺️ Roadmap & Learning Path
 
