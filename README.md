@@ -160,9 +160,11 @@ int main()
     return 0;
 }
 
+
 #### Expected Output:
 text
 Hello Duniya
+
 
 ---
 
@@ -191,9 +193,11 @@ int main()
     return 0;
 }
 
+
 #### Expected Output:
 text
 My Marks is:10021
+
 
 ---
 
@@ -230,11 +234,13 @@ int main()
     return 0;
 }
 
+
 #### Expected Output:
 text
 enter your grade
 B
 ur marks in range 80
+
 
 ---
 
@@ -257,9 +263,11 @@ int main()
     return 0;
 }
 
+
 #### Expected Output:
 text
 12345
+
 
 ---
 
@@ -277,9 +285,42 @@ int main()
     return 0;
 }
 
+
 #### Expected Output:
 text
 6
+
+
+---
+
+### 6. Compound Assignment Operator (`Operators/main2.cpp`)
+
+cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // bool cond1 = true;
+    // bool cond2 = false;
+    // bool cond3 = false;
+
+    // if(cond1 || cond2 || cond3){
+    //     cout << "all are true" << endl;
+    // }
+    // else{
+    //     cout << "not true" << endl;
+    // }
+    int arr = 5;
+    arr+= 10;
+    cout << arr;
+    return 0;
+}
+
+
+#### Expected Output:
+text
+15
 
 ## 🗺️ Roadmap & Learning Path
 
