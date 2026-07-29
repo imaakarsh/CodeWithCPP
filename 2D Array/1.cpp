@@ -9,5 +9,7 @@ int main(){
     };
 
     cout << arr[0][1] << endl;
+    
     return 0;
+    
 }
