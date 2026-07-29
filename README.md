@@ -21,10 +21,10 @@ CodeWithCPP is designed for developers learning C++ fundamentals and core comput
 - **Continuous Integration** automated build and verification pipeline using GitHub Actions
 ## 🗂️ Repository Structure
 
-text
 CodeWithCPP/
 ├── .vscode/                # VS Code build configuration
 ├── 2D Array/               # Two-dimensional array operations
+│   └── 21.cpp              # New empty example file
 ├── Array/                  # Array concepts and examples
 ├── Basic-C++/              # Core syntax examples
 ├── CharArray/              # Character array and string basics
@@ -36,7 +36,6 @@ CodeWithCPP/
 ├── TernaryOpertaors/       # Ternary operator examples
 ├── TypeCasting/            # Type conversion demonstrations
 └── Variable-Datatypes/     # Variables and data types
-
 ## 🚀 Getting Started
 
 ### Prerequisites
