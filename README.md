@@ -21,6 +21,7 @@ CodeWithCPP is designed for developers learning C++ fundamentals and core comput
 - **Continuous Integration** automated build and verification pipeline using GitHub Actions
 ## 🗂️ Repository Structure
 
+
 CodeWithCPP/
 ├── .vscode/                # VS Code build configuration
 ├── 2D Array/               # Two-dimensional array operations
@@ -33,9 +34,13 @@ CodeWithCPP/
 ├── Input/                  # User input handling
 ├── Loops/                  # Looping constructs (for, do-while, continue)
 ├── Operators/              # Operator examples
+├── Passbyvalue&Refrence/   # Pass by value and pass by reference demonstrations
+├── Reference Variable/     # Reference variables and aliases
+├── String/                 # String operations and manipulation
 ├── TernaryOpertaors/       # Ternary operator examples
 ├── TypeCasting/            # Type conversion demonstrations
 └── Variable-Datatypes/     # Variables and data types
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -140,6 +145,57 @@ int main() {
     char arr[10] = "babbar";
     return 0;
 }
+
+
+### 5. Pass by Value vs. Reference
+cpp
+// Passbyvalue&Refrence/main.cpp
+#include <iostream>
+using namespace std;
+void solve(string str)
+{
+    cout << str << endl;
+    str[0] = 'r';
+    cout << str << endl;
+}
+int main()
+{
+    string str = "aakarsh";
+    cout << str << endl;
+    solve(str);
+    cout << str << endl;
+    return 0;
+}
+
+
+**Output:**
+text
+aakarsh
+aakarsh
+rakarsh
+aakarsh
+
+
+### 6. Reference Variables
+cpp
+// Reference Variable/main.cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 4;
+    int &temp = a;
+
+    cout << temp << endl;
+    cout << a << endl;
+}
+
+
+**Output:**
+text
+4
+4
 
 ## 🗺️ Learning Path
 
