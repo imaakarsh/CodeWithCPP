@@ -21,7 +21,6 @@ CodeWithCPP is designed for developers learning C++ fundamentals and core comput
 - **Continuous Integration** automated build and verification pipeline using GitHub Actions
 ## 🗂️ Repository Structure
 
-
 CodeWithCPP/
 ├── .vscode/                # VS Code build configuration
 ├── 2D Array/               # Two-dimensional array operations
@@ -35,12 +34,13 @@ CodeWithCPP/
 ├── Loops/                  # Looping constructs (for, do-while, continue)
 ├── Operators/              # Operator examples
 ├── Passbyvalue&Refrence/   # Pass by value and pass by reference demonstrations
+├── Pointers/               # Pointer concepts and dynamic memory examples
+│   └── dml.cpp              # Dynamic memory demonstration
 ├── Reference Variable/     # Reference variables and aliases
 ├── String/                 # String operations and manipulation
 ├── TernaryOpertaors/       # Ternary operator examples
 ├── TypeCasting/            # Type conversion demonstrations
 └── Variable-Datatypes/     # Variables and data types
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -87,11 +87,9 @@ int main() {
     return 0;
 }
 
-
 **Output:**
 text
 Hello Duniya
-
 
 ### 2. Input/Output
 cpp
@@ -106,14 +104,12 @@ int main() {
     printNumbers(value);
 }
 
-
 **Example Output (input: 3):**
 text
 0
 1
 2
 3
-
 
 ### 3. Control Flow (Switch Case)
 cpp
@@ -129,11 +125,9 @@ int main() {
     }
 }
 
-
 **Example Output (input: B):**
 text
 80-89
-
 
 ### 4. Character Arrays
 cpp
@@ -145,7 +139,6 @@ int main() {
     char arr[10] = "babbar";
     return 0;
 }
-
 
 ### 5. Pass by Value vs. Reference
 cpp
@@ -167,14 +160,12 @@ int main()
     return 0;
 }
 
-
 **Output:**
 text
 aakarsh
 aakarsh
 rakarsh
 aakarsh
-
 
 ### 6. Reference Variables
 cpp
@@ -191,12 +182,29 @@ int main()
     cout << a << endl;
 }
 
-
 **Output:**
 text
 4
 4
 
+### 7. Dynamic Memory (Pointers)
+cpp
+// Pointers/dml.cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    //dyanamic memeory
+    int *ptr = new int;
+    cout << *ptr ;
+
+    // ab mereko need nhi h iss int ki
+    delete ptr;
+
+    return 0;
+}
+
+**Note:** This example demonstrates allocating memory with `new`, accessing the (uninitialized) value, and releasing it with `delete`.
 ## 🗺️ Learning Path
 
 - [x] **Basics**: Variables, operators, I/O, type casting
