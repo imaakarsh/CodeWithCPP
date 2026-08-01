@@ -29,15 +29,18 @@ CodeWithCPP/
 ├── Array/                  # Array concepts and examples
 ├── Basic-C++/              # Core syntax examples
 ├── CharArray/              # Character array and string basics
+├── Classes-Objects/        # Classes and objects basics
 ├── ControlFlowStatemwnt/   # Conditional logic and switch cases
 ├── Functions/              # Function definitions and homework exercises
 ├── Input/                  # User input handling
 ├── Local-Global Variable/  # Local and global variable scope demonstrations
 ├── Loops/                  # Looping constructs (for, do-while, continue)
+├── OPPS/                   # Object-Oriented Programming concepts (const, getters/setters)
+│   └── const.cpp           # Const keyword, pointers, and class examples
 ├── Operators/              # Operator examples
 ├── Passbyvalue&Refrence/   # Pass by value and pass by reference demonstrations
 ├── Pointers/               # Pointer concepts and dynamic memory examples
-│   └── dml.cpp              # Dynamic memory demonstration
+│   └── dml.cpp             # Dynamic memory demonstration
 ├── Reference Variable/     # Reference variables and aliases
 ├── String/                 # String operations and manipulation
 ├── TernaryOpertaors/       # Ternary operator examples
@@ -245,6 +248,51 @@ text
 30
 2
 50
+
+
+### 9. Classes and Getters/Setters (OOP)
+cpp
+// OPPS/const.cpp
+#include <iostream>
+using namespace std;
+class abc
+{
+    int x;
+    int *y;
+
+public:
+    abc()
+    {
+        x = 0;
+        y = new int(0);
+    }
+
+    int getX(){
+        return x;
+    }
+    void setX(int _val){
+        x = _val;
+    }
+    int getY(){
+        return *y;
+    }
+
+    void setY(int _val){
+        *y = _val;
+    }
+};
+
+int main()
+{
+    abc a;
+    cout << a.getX() << endl;
+    return 0;
+}
+
+
+**Output:**
+text
+0
 
 ## 🗺️ Learning Path
 
