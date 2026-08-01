@@ -35,8 +35,9 @@ CodeWithCPP/
 ├── Input/                  # User input handling
 ├── Local-Global Variable/  # Local and global variable scope demonstrations
 ├── Loops/                  # Looping constructs (for, do-while, continue)
-├── OPPS/                   # Object-Oriented Programming concepts (const, getters/setters)
-│   └── const.cpp           # Const keyword, pointers, and class examples
+├── OPPS/                   # Object-Oriented Programming and preprocessor concepts
+│   ├── const.cpp           # Const keyword, pointers, and class examples
+│   └── Macros.cpp          # Preprocessor directives and macro definitions
 ├── Operators/              # Operator examples
 ├── Passbyvalue&Refrence/   # Pass by value and pass by reference demonstrations
 ├── Pointers/               # Pointer concepts and dynamic memory examples
@@ -262,7 +263,7 @@ class abc
 
 public:
     abc()
-    {
+    { 
         x = 0;
         y = new int(0);
     }
@@ -293,6 +294,33 @@ int main()
 **Output:**
 text
 0
+
+
+### 10. Macros and Preprocessor Directives
+cpp
+// OPPS/Macros.cpp
+#include <iostream>
+using namespace std;
+#define PI 3.14
+#define MAXX(x, y) (x > y ? x : y)
+
+float circleArea(int r)
+{
+    return PI * r * r;
+}
+
+int main()
+{
+    float area = circleArea(3);
+    cout << area << endl;
+
+    return 0;
+}
+
+
+**Output:**
+text
+28.26
 
 ## 🗺️ Learning Path
 
