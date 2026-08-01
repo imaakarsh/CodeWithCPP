@@ -72,13 +72,6 @@ Install a C++ compiler for your platform:
    NamsteDuniya.exe  # Windows
    
 
-### Continuous Integration
-
-This project uses GitHub Actions to automatically build and verify code changes on every push or pull request to the `main` branch. The CI pipeline runs on `ubuntu-latest` and executes the following automated steps:
-- `./configure`
-- `make`
-- `make check`
-- `make distcheck`
 ## 💡 Usage Examples
 
 ### 1. Basic Syntax
