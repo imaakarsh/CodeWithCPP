@@ -4,7 +4,7 @@
 A structured learning repository for mastering C++ programming through practical examples. This project provides a progressive path from basic syntax to advanced concepts, with clean, well-documented code samples for Windows, macOS, and Linux.
 ## 📚 Overview
 
-CodeWithCPP is designed for developers learning C++ fundamentals and core computer science concepts. The repository follows a logical progression from basic syntax to advanced topics like OOP and DSA, with each concept demonstrated through ready-to-run code examples.
+CodeWithCPP is a structured learning repository designed for developers mastering C++ fundamentals and core computer science concepts. The repository follows a logical progression from basic syntax to advanced topics like Object-Oriented Programming (OOP) and memory management, with each concept demonstrated through ready-to-run code examples.
 
 ### Why C++?
 - **High performance** for system-level programming
@@ -12,41 +12,35 @@ CodeWithCPP is designed for developers learning C++ fundamentals and core comput
 - **Industry standard** in game development, embedded systems, and competitive programming
 ## 🛠️ Features
 
-- **Progressive learning path** from variables to advanced algorithms
-- **Ready-to-compile** code samples with detailed inline comments
-- **Multi-platform support** (Windows/macOS/Linux)
-- **Modern C++ standards** (C++11/17/20)
-- **Compiler-agnostic** (GCC, Clang, MSVC)
-- **VS Code integration** for seamless development
-- **Continuous Integration** automated build and verification pipeline using GitHub Actions
+- **Progressive Learning Path**: Transition smoothly from basic variables to advanced OOP and memory management concepts.
+- **Hands-on Examples**: Ready-to-compile code samples covering arrays, pointers, functions, and control flow.
+- **Memory Management**: Practical demonstrations of pointers, reference variables, and dynamic memory allocation (DML).
+- **Object-Oriented Programming**: Clear examples of classes, objects, static members, and the `const` keyword.
+- **VS Code Integration**: Pre-configured tasks and settings for seamless compilation and execution.
 ## 🗂️ Repository Structure
 
 
 CodeWithCPP/
-├── .vscode/                # VS Code build configuration
-├── 2D Array/               # Two-dimensional array operations
-│   └── 21.cpp              # New empty example file
-├── Array/                  # Array concepts and examples
-├── Basic-C++/              # Core syntax examples
-├── CharArray/              # Character array and string basics
-├── Classes-Objects/        # Classes and objects basics
-├── ControlFlowStatemwnt/   # Conditional logic and switch cases
-├── Functions/              # Function definitions and homework exercises
-├── Input/                  # User input handling
-├── Local-Global Variable/  # Local and global variable scope demonstrations
-├── Loops/                  # Looping constructs (for, do-while, continue)
-├── OPPS/                   # Object-Oriented Programming and preprocessor concepts
-│   ├── const.cpp           # Const keyword, pointers, and class examples
-│   └── Macros.cpp          # Preprocessor directives and macro definitions
-├── Operators/              # Operator examples
-├── Passbyvalue&Refrence/   # Pass by value and pass by reference demonstrations
-├── Pointers/               # Pointer concepts and dynamic memory examples
-│   └── dml.cpp             # Dynamic memory demonstration
-├── Reference Variable/     # Reference variables and aliases
-├── String/                 # String operations and manipulation
-├── TernaryOpertaors/       # Ternary operator examples
-├── TypeCasting/            # Type conversion demonstrations
-└── Variable-Datatypes/     # Variables and data types
+├── .vscode/                  # VS Code configuration (settings, tasks)
+├── 2D Array/                 # Two-dimensional array operations and problems
+├── Array/                    # 1D array concepts, passing arrays, and practice questions
+├── Basic-C++/                # Core syntax and "Hello World" (NamsteDuniya)
+├── CharArray/                # Character arrays and basic string handling
+├── Classes-Objects/          # Object-oriented programming basics (classes and objects)
+├── ControlFlowStatemwnt/     # Conditional logic, including Switch-Case statements
+├── Functions/                # Function definitions, parameters, and homework exercises
+├── Input/                    # User input handling examples
+├── Local-Global Variable/    # Scope of local and global variables
+├── Loops/                    # Looping constructs (for, do-while, continue)
+├── OPPS/                     # Advanced OOP concepts (const, static, macros)
+├── Operators/                # Arithmetic, logical, and bitwise operators
+├── Passbyvalue&Refrence/     # Pass by value vs. pass by reference demonstrations
+├── Pointers/                 # Pointers and Dynamic Memory Allocation (DML)
+├── Reference Variable/       # Reference variables and aliases
+├── String/                   # C++ standard string class operations
+├── TernaryOpertaors/         # Ternary operator usage
+├── TypeCasting/              # Implicit and explicit type conversion
+└── Variable-Datatypes/       # Variables, data types, and memory sizes
 
 ## 🚀 Getting Started
 
@@ -324,12 +318,12 @@ text
 
 ## 🗺️ Learning Path
 
-- [x] **Basics**: Variables, operators, I/O, type casting
-- [x] **Control Flow**: Conditionals & loops
-- [x] **Functions**
-- [x] **Data Structures**: Arrays
-- [ ] **OOP Concepts**: Classes, inheritance
-- [ ] **Advanced Topics**: STL, templates
+- [x] **Basics**: Variables, data types, operators, input/output, type casting
+- [x] **Control Flow**: Conditionals, loops (for, do-while, continue), ternary operators, switch-case
+- [x] **Functions**: Parameter passing (value vs. reference), scope (local/global)
+- [x] **Data Structures**: Arrays (1D & 2D), character arrays, strings
+- [x] **Pointers & Memory**: Pointers, reference variables, dynamic memory allocation (DML)
+- [x] **Object-Oriented Programming (OOP)**: Classes, objects, const keyword, static members, macros
 ## 🤝 Contributing
 
 1. Fork the repository
