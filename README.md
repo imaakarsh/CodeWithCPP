@@ -69,7 +69,6 @@ Install a C++ compiler for your platform:
    ./NamsteDuniya  # Linux/macOS
    NamsteDuniya.exe  # Windows
    
-
 ## 💡 Usage Examples
 
 ### 1. Basic Syntax
@@ -257,7 +256,7 @@ class abc
 
 public:
     abc()
-    { 
+    {
         x = 0;
         y = new int(0);
     }
@@ -332,7 +331,6 @@ text
 4. Follow C++ naming conventions
 
 ---
-
 ## 🔧 Troubleshooting
 
 | Issue | Solution |
@@ -342,13 +340,11 @@ text
 | Compilation errors | Specify standard: `g++ -std=c++17 file.cpp` |
 
 ---
-
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details
 
 ---
-
 ## 👤 Author
 
 **Akarsh**  
