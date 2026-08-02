@@ -9,7 +9,7 @@ float circleArea(int r)
 }
 
 void fun(){
-    int 
+    int a;
 }
 int main()
 {
