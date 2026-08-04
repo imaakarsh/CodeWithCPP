@@ -16,10 +16,11 @@ CodeWithCPP is a structured learning repository designed for developers masterin
 - **Hands-on Examples**: Ready-to-compile code samples covering arrays, pointers, functions, and control flow.
 - **Memory Management**: Practical demonstrations of pointers, reference variables, and dynamic memory allocation (DML).
 - **Object-Oriented Programming**: Clear examples of classes, objects, static members, and the `const` keyword.
+- **Students Class Example**: New `students` class implementation illustrating basic class structure, member variables, and encapsulation.
 - **VS Code Integration**: Pre-configured tasks and settings for seamless compilation and execution.
 ## 🗂️ Repository Structure
 
-
+markdown
 CodeWithCPP/
 ├── .vscode/                  # VS Code configuration (settings, tasks)
 ├── 2D Array/                 # Two-dimensional array operations and problems
@@ -33,6 +34,7 @@ CodeWithCPP/
 ├── Local-Global Variable/    # Scope of local and global variables
 ├── Loops/                    # Looping constructs (for, do-while, continue)
 ├── OPPS/                     # Advanced OOP concepts (const, static, macros)
+│   ├── messy.cpp            # Simple `students` class example
 ├── Operators/                # Arithmetic, logical, and bitwise operators
 ├── Passbyvalue&Refrence/     # Pass by value vs. pass by reference demonstrations
 ├── Pointers/                 # Pointers and Dynamic Memory Allocation (DML)
