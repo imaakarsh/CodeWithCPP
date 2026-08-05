@@ -16,11 +16,11 @@ CodeWithCPP is a structured learning repository designed for developers masterin
 - **Hands-on Examples**: Ready-to-compile code samples covering arrays, pointers, functions, and control flow.
 - **Memory Management**: Practical demonstrations of pointers, reference variables, and dynamic memory allocation (DML).
 - **Object-Oriented Programming**: Clear examples of classes, objects, static members, and the `const` keyword.
-- **Students Class Example**: New `students` class implementation illustrating basic class structure, member variables, and encapsulation.
+- **Encapsulation & Access Control**: Practical implementation of access modifiers (`public` vs `private`), class attributes, methods, and destructors in the `Student` class.
 - **VS Code Integration**: Pre-configured tasks and settings for seamless compilation and execution.
 ## 🗂️ Repository Structure
 
-markdown
+text
 CodeWithCPP/
 ├── .vscode/                  # VS Code configuration (settings, tasks)
 ├── 2D Array/                 # Two-dimensional array operations and problems
@@ -33,8 +33,11 @@ CodeWithCPP/
 ├── Input/                    # User input handling examples
 ├── Local-Global Variable/    # Scope of local and global variables
 ├── Loops/                    # Looping constructs (for, do-while, continue)
-├── OPPS/                     # Advanced OOP concepts (const, static, macros)
-│   ├── messy.cpp            # Simple `students` class example
+├── OPPS/                     # Advanced OOP concepts (const, static, macros, encapsulation)
+│   ├── 1_student.cpp         # Student class with attributes, methods, and access modifiers
+│   ├── encasulation.cpp      # Basic encapsulation and access control example
+│   ├── main.cpp              # Pointer assignment and reference demonstration
+│   └── messy.cpp             # Simple students class example
 ├── Operators/                # Arithmetic, logical, and bitwise operators
 ├── Passbyvalue&Refrence/     # Pass by value vs. pass by reference demonstrations
 ├── Pointers/                 # Pointers and Dynamic Memory Allocation (DML)
@@ -258,7 +261,7 @@ class abc
 
 public:
     abc()
-    {
+    { 
         x = 0;
         y = new int(0);
     }
@@ -316,6 +319,67 @@ int main()
 **Output:**
 text
 28.26
+
+
+### 11. Encapsulation and Access Modifiers
+cpp
+// OPPS/encasulation.cpp
+#include <iostream>
+using namespace std;
+
+class student{
+    int id;      // Private by default
+    int name;    // Private by default
+    public:
+    int age;     // Public attribute
+
+    void study(){
+        // Public method
+    }
+};
+
+int main() {
+    return 0;
+}
+
+
+### 12. Class Attributes, Methods, and Destructors
+cpp
+// OPPS/1_student.cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Student
+{
+public:
+    // Public attributes
+    int id;
+    int age;
+    string name;
+    int nos;
+
+private:
+    // Private attributes
+    int *gpa;
+    string gf;
+
+public:
+    // Public methods
+    void study()
+    {
+        cout << this->name << "Studying" << endl;
+    }
+    void sleep()
+    {
+        cout << this->name << "Sleeping" << endl;
+    }
+    // Destructor
+    ~Student()
+    {
+        cout << "Student default ctor" << endl;
+    }
+};
 
 ## 🗺️ Learning Path
 
