@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class Student
+class Student()
 {
 public:
     // attributes
@@ -10,14 +10,17 @@ public:
     int age;
     string name;
     int nos;
+
+private:
+    int *gpa;
+    string gf;
+
+public:
     // ctor:default
-    Student()
-    {
-        cout << "Student default ctor" << endl;
-    }
+    
     // behaviour // method / function
     void study()
-    {
+    { 
         cout << this->name << "Studying" << endl;
     }
     void sleep()
@@ -29,7 +32,13 @@ public:
     {
         cout << "Student default ctor" << endl;
     }
+    Student(int id , )
+    private:
+    void gfchat(){
+        cout << this->name << "chatting" << endl;
+    }
 };
+
 int main()
 {
     // Student A;
@@ -43,5 +52,6 @@ int main()
     // b.name = "Aakarsh";
     // b.nos = 6;
     // b.sleep();
+    Student A();
     return 0;
 }
