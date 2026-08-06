@@ -1,10 +1,18 @@
 
 # 💻 CodeWithCPP
 
-A structured learning repository for mastering C++ programming through practical examples. This project provides a progressive path from basic syntax to advanced concepts, with clean, well-documented code samples for Windows, macOS, and Linux.
+A structured learning repository for mastering C++ programming through practical examples. This project provides a progressive path from basic syntax, control flow, and functions to advanced concepts like Object-Oriented Programming (OOP), memory management, and practical problem-solving exercises.
 ## 📚 Overview
 
 CodeWithCPP is a structured learning repository designed for developers mastering C++ fundamentals and core computer science concepts. The repository follows a logical progression from basic syntax to advanced topics like Object-Oriented Programming (OOP) and memory management, with each concept demonstrated through ready-to-run code examples.
+
+### Key Learning Areas
+- **Fundamentals**: Variables, data types, operators, and type casting.
+- **Control Flow & Functions**: Switch-case statements, loops, ternary operators, and modular functions.
+- **Data Structures**: 1D and 2D arrays, character arrays, and standard strings.
+- **Memory Management**: Pointers, reference variables, pass-by-value/reference, and Dynamic Memory Allocation (DML).
+- **Object-Oriented Programming (OOP)**: Classes, objects, encapsulation, inheritance, constructors (including private constructors), static members, and deep vs. shallow copying.
+- **Practical Problem Solving**: Real-world challenge programs covering percentage calculation, voting eligibility, and conditional logic.
 
 ### Why C++?
 - **High performance** for system-level programming
