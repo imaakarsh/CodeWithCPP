@@ -33,11 +33,16 @@ CodeWithCPP/
 ├── Input/                    # User input handling examples
 ├── Local-Global Variable/    # Scope of local and global variables
 ├── Loops/                    # Looping constructs (for, do-while, continue)
-├── OPPS/                     # Advanced OOP concepts (const, static, macros, encapsulation)
-│   ├── 1_student.cpp         # Student class with attributes, methods, and access modifiers
-│   ├── encasulation.cpp      # Basic encapsulation and access control example
+├── OPPS/                     # Advanced OOP concepts (const, static, macros, encapsulation, inheritance)
+│   ├── Encapsulation/        # Encapsulation and access control examples (Student class)
+│   ├── Inheritance/          # Inheritance concepts and demonstrations
+│   ├── Macros.cpp            # Macro definitions and usage
+│   ├── const.cpp             # Const keyword demonstration
 │   ├── main.cpp              # Pointer assignment and reference demonstration
-│   └── messy.cpp             # Simple students class example
+│   ├── messy.cpp             # Simple students class example
+│   ├── private _ctor.cpp     # Private constructor implementation
+│   ├── shallowcpy-deepcpy.cpp# Shallow copy vs. deep copy demonstrations
+│   └── statsic.cpp           # Static members and methods
 ├── Operators/                # Arithmetic, logical, and bitwise operators
 ├── Passbyvalue&Refrence/     # Pass by value vs. pass by reference demonstrations
 ├── Pointers/                 # Pointers and Dynamic Memory Allocation (DML)
@@ -388,7 +393,7 @@ public:
 - [x] **Functions**: Parameter passing (value vs. reference), scope (local/global)
 - [x] **Data Structures**: Arrays (1D & 2D), character arrays, strings
 - [x] **Pointers & Memory**: Pointers, reference variables, dynamic memory allocation (DML)
-- [x] **Object-Oriented Programming (OOP)**: Classes, objects, const keyword, static members, macros
+- [x] **Object-Oriented Programming (OOP)**: Classes, objects, const keyword, static members, macros, encapsulation, inheritance, constructors (private, shallow vs. deep copy)
 ## 🤝 Contributing
 
 1. Fork the repository
