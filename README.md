@@ -1,3 +1,4 @@
+
 # CodeWithCPP
 
 A structured learning repository for mastering C++ programming through practical examples. This project provides a progressive path from basic syntax to advanced concepts like Object-Oriented Programming (OOP) and memory management.
@@ -7,38 +8,42 @@ A structured learning repository for mastering C++ programming through practical
 ## 📚 Learning Path
 
 ### Core Concepts
-- **Fundamentals**: Variables, data types, operators, input/output, and type casting
-- **Control Flow**: Conditionals, loops (for/do-while), ternary operators, switch-case
-- **Functions**: Parameter passing (value/reference), scope (local/global)
-- **Data Structures**: Arrays (1D/2D), character arrays, standard strings
-- **Memory Management**: Pointers, reference variables, dynamic memory allocation (DML)
-- **Object-Oriented Programming**: Classes, objects, encapsulation, inheritance, static members, and deep/shallow copy
-
----
+- **Fundamentals**: Variables & data types, operators, input/output, and type casting
+- **Control Flow**: Conditionals, loops (for/do-while/continue), ternary operators, and switch-case
+- **Functions**: Parameter passing (value/reference), scope (local/global variables)
+- **Data Structures**: Arrays (1D/2D), character arrays, and standard strings
+- **Memory Management**: Pointers, reference variables, and dynamic memory allocation (DML)
+- **Object-Oriented Programming (OOP)**: Classes, objects, encapsulation, inheritance, static/const members, macros, and deep/shallow copy
+- **Practice Problems**: Real-world logic challenges (e.g., voting eligibility, number sign checkers, day/month calculators)
 
 ## 📁 Repository Structure
 
-```
-CodeWithCPP/
-├── .vscode/              # VS Code configuration
-├── Basic-C++/            # Core syntax & "Hello World"
-├── CharArray/            # Character arrays & string handling
-├── Classes-Objects/      # OOP basics
-├── ControlFlow/          # Conditional logic & switch-case
-├── Functions/            # Function definitions & parameters
-├── Input/                # User input examples
-├── Loops/                # Looping constructs
-├── OOP/                  # Advanced OOP concepts
-│   ├── Encapsulation/    # Access control & class design
-│   ├── Inheritance/      # Inheritance demonstrations
-│   ├── Macros.cpp        # Preprocessor directives
-│   └── Static.cpp        # Static members & methods
-├── Pointers/             # Pointer operations & DML
-├── Reference/            # Reference variables
-└── TypeCasting/          # Implicit/explicit type conversion
-```
 
----
+CodeWithCPP/
+├── .vscode/                  # VS Code configuration (settings, tasks)
+├── 2D Array/                 # 2D array operations and examples
+├── Array/                    # 1D array operations and passing arrays to functions
+├── Basic-C++/                # Core syntax & "Hello World"
+├── CharArray/                # Character arrays & string handling
+├── Classes-Objects/          # OOP basics (classes & objects)
+├── ControlFlowStatemwnt/     # Conditional logic & switch-case statements
+├── Functions/                # Function definitions, parameters, and homework
+├── Input/                    # User input examples
+├── Local-Global Variable/    # Scope of local and global variables
+├── Loops/                    # Looping constructs (while, do-while, continue)
+├── OPPS/                     # Advanced OOP concepts
+│   ├── Encapsulation/        # Access control, const, static, shallow/deep copy
+│   └── Inheritance/          # Inheritance demonstrations
+├── Operators/                # Arithmetic, logical, and bitwise operators
+├── Passbyvalue&Refrence/     # Pass by value vs. pass by reference
+├── Pointers/                 # Pointer operations & dynamic memory allocation (DML)
+├── Questions/                # Practice questions and logic challenges
+├── Reference Variable/       # Reference variables in C++
+├── String/                   # Standard C++ string operations
+├── TernaryOpertaors/         # Ternary operator examples
+├── TypeCasting/              # Implicit/explicit type conversion
+└── Variable-Datatypes/       # Variables and data types
+
 
 ## 🚀 Getting Started
 
@@ -69,22 +74,22 @@ Install a C++ compiler:
 ## 💡 Example Code
 
 ### 1. Basic Syntax
-```cpp
+cpp
 // Basic-C++/NamsteDuniya.cpp
 #include <iostream>
 int main() {
     std::cout << "Hello Duniya" << std::endl;
     return 0;
 }
-```
+
 
 **Output:**
-```
+
 Hello Duniya
-```
+
 
 ### 2. Pass by Value vs. Reference
-```cpp
+cpp
 // Passbyvalue&Refrence/main.cpp
 #include <iostream>
 using namespace std;
@@ -102,27 +107,24 @@ int main() {
     cout << str << endl;
     return 0;
 }
-```
+
 
 **Output:**
-```
+
 aakarsh
 aakarsh
 rakarsh
 aakarsh
-```
 
----
 
 ## 🛠️ Key Features
 
-- **Progressive Learning**: From syntax to advanced OOP
-- **Hands-on Examples**: Ready-to-compile code for arrays, pointers, and control flow
-- **Memory Management**: Practical DML and pointer demonstrations
-- **OOP Concepts**: Encapsulation, inheritance, and static members
-- **VS Code Integration**: Pre-configured tasks for seamless development
-
----
+- **Progressive Learning**: From basic syntax to advanced OOP and memory management
+- **Hands-on Examples**: Ready-to-compile code for arrays (1D/2D), pointers, and control flow
+- **Memory Management**: Practical dynamic memory allocation (DML) and pointer demonstrations
+- **OOP Concepts**: Encapsulation, inheritance, static/const members, and shallow/deep copying
+- **Practice Problems**: Dedicated questions folder containing real-world logic challenges
+- **VS Code Integration**: Pre-configured tasks and settings for seamless development
 
 ## 🤝 Contributing
 
