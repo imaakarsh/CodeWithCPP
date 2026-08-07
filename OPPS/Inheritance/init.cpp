@@ -4,6 +4,7 @@ using namespace std;
 
 class vehicle
 {
+    public:
     string name;
     string model;
     int notyres;
@@ -33,6 +34,6 @@ public:
 };
 int main()
 {
-    
+
     return 0;
 }
