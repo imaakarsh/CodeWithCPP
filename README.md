@@ -1,3 +1,26 @@
+Repository reorganizer
+
+Run `python restructure.py` to move existing topic folders into a standardized layout:
+
+- `examples/` — topic-based example folders (kebab-case)
+- `problems/` — moved from `Questions/`
+- `src/`, `include/` — for shared code
+- `build/` — build outputs
+
+The script will also generate `CMakeLists.txt` files for each example/problem folder and a root `CMakeLists.txt` that adds all subdirectories.
+
+After running, build with CMake:
+
+Windows (from repo root):
+
+```powershell
+mkdir build
+cd build
+cmake .. -G "MinGW Makefiles"
+cmake --build .
+```
+
+Or use your existing VS Code build tasks.
 
 # CodeWithCPP
 
