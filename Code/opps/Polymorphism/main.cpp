@@ -46,7 +46,7 @@ int main()
     A.print();
     complex B(3, 4);
 
-    complex c = A + B; 
+    complex c = A + B;
 
     //  int x=5;
     //  int y = 4;
