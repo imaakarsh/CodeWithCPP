@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+class Complex
+{
+public:
+    int real;
+    int imag;
+
+    // Default constructor
+    Complex()
+    {
+        real = imag = -1;
+    }
+
+    // Parameterized constructor
+    Complex(int r, int i) : real(r), imag(i)
+    {
+    }
+
+    // Operator overloading
+    Complex operator+(const Complex &B)
+    {
+        Complex temp;
+
+        temp.real = this->real + B.real;
+        temp.imag = this->imag + B.imag;
+
+        return temp;
+    }
+
+    void print()
+    {
+        cout << "[" << real << " + i" << imag << "]" << endl;
+    }
+};
+
+int main()
+{
+    Complex A(2, 5);
+    A.print();
+
+    Complex B(3, 4);
+    B.print();
+
+    Complex C = A + B;
+    C.print();
+
+    return 0;
+}
