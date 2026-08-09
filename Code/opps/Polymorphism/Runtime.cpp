@@ -31,7 +31,7 @@ public:
     }
 };
 
-void ShapeDraw(Shape *s)
+void ShapeDrawing(Shape *s)
 {
     s->draw();
 }
@@ -39,8 +39,10 @@ int main()
 {
 
     Circle c;
+    Rec r;
     // Rectangle r;
-    ShapeDraw(&c);
-    c.draw();
+    ShapeDrawing(&c);
+    ShapeDrawing(&r);
+    // c.draw();
     return 0;
 }
