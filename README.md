@@ -25,8 +25,6 @@ Or use your existing VS Code build tasks.
 # CodeWithCPP
 
 A structured learning repository for mastering C++ programming through practical examples. This project provides a progressive path from basic syntax to advanced concepts like Object-Oriented Programming (OOP) and memory management, organized with CMake for easy building.
-
----
 ## 📚 Learning Path
 
 ### Core Concepts
@@ -35,7 +33,7 @@ A structured learning repository for mastering C++ programming through practical
 - **Functions**: Parameter passing (value/reference), scope (local/global variables)
 - **Data Structures**: Arrays (1D/2D), character arrays, and standard strings
 - **Memory Management**: Pointers, reference variables, and dynamic memory allocation (DML)
-- **Object-Oriented Programming (OOP)**: Classes, objects, encapsulation, inheritance, polymorphism, static/const members, and deep/shallow copy
+- **Object-Oriented Programming (OOP)**: Classes, objects, encapsulation, inheritance, polymorphism
 - **Practice Problems**: Real-world logic challenges (e.g., voting eligibility, number sign checkers, day/month calculators, percentage calculations)
 ## 📁 Repository Structure
 
@@ -63,7 +61,7 @@ CodeWithCPP/
 │   ├── ternaryopertaors/     # Ternary operator examples
 │   └── variable-datatypes/   # Variables, data types, and TypeCasting
 └── problems/
-    └── questions/            # Practice questions and logic challenges (e.g., Voting Eligibility, Check Number Sign)
+    └── questions/            # Practice questions and logic challenges (e.g., Voting Eligibility, Check Number Sign, Calculate Percentage)
 
 ## 🚀 Getting Started
 
@@ -94,8 +92,6 @@ Install a C++ compiler and CMake:
    ./NamsteDuniya  # Linux/macOS
    NamsteDuniya.exe  # Windows
    
-
----
 ## 💡 Example Code
 
 ### 1. Basic Syntax
@@ -253,7 +249,7 @@ Im inside Vehicle
 - **CMake Build System**: Standardized build configuration across all modules and practice problems
 - **Hands-on Examples**: Ready-to-compile code for arrays (1D/2D), pointers, and control flow
 - **Memory Management**: Practical dynamic memory allocation (DML) and pointer demonstrations
-- **OOP Concepts**: Encapsulation, inheritance, polymorphism, static/const members, and shallow/deep copying
+- **OOP Concepts**: Encapsulation, inheritance, polymorphism, and constructors/destructors
 - **Practice Problems**: Dedicated questions folder containing real-world logic challenges
 - **VS Code Integration**: Pre-configured tasks and settings for seamless development
 ## 🤝 Contributing
