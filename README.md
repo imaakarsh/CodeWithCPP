@@ -1,7 +1,7 @@
+
 # CodeWithCPP
 
-A structured C++ learning repository with progressive examples and CMake-based build system. This project covers core programming concepts, object-oriented principles, and memory management through practical code samples.
-
+A structured C++ learning repository featuring progressive examples, practice problems, and a CMake-based build system. This project covers core programming concepts, object-oriented principles, and memory management through practical code samples.
 ## 📁 Repository Structure
 
 ```
@@ -28,42 +28,38 @@ Install a C++ compiler and CMake:
 - **Linux**: `sudo apt install build-essential cmake`
 
 ### Build Process
-```bash
+bash
 git clone https://github.com/imaakarsh/CodeWithCPP.git
 cd CodeWithCPP
-
 # CMake build
 mkdir build && cd build
 cmake ..
 cmake --build .
-
 # Or manual compilation
 g++ Code/basic-c/NamsteDuniya.cpp -o NamsteDuniya
-```
 
 ## 🛠️ Key Features
 
-- **Progressive Learning Path**: From basic syntax to advanced OOP and memory management
-- **Standardized Build System**: CMake configuration for all modules and practice problems
-- **Hands-on Examples**: Ready-to-compile code for arrays, control flow, and memory operations
-- **OOP Implementation**: Demonstrates encapsulation, inheritance, and polymorphism
-- **Practice Problems**: Real-world logic challenges in dedicated questions folder
-- **VS Code Integration**: Pre-configured development environment
-
+- **Comprehensive C++ Basics**: From variables, data types, and operators to loops and control flow statements.
+- **Data Structures**: Practical examples of 1D arrays, 2D arrays, character arrays, and strings.
+- **Advanced Concepts**: Detailed coverage of pointers, dynamic memory allocation (DML), and reference variables.
+- **Object-Oriented Programming (OOP)**: Dedicated modules for Encapsulation, Inheritance, and Polymorphism.
+- **Practice Problems**: A collection of logic-building challenges including voting eligibility, day/month determination, and percentage calculation.
+- **Modern Build Tooling**: CMake-based build system and pre-configured VS Code environment.
 ## 💡 Example Code
 
 ### Basic Syntax
-```cpp
+cpp
 // Code/basic-c/NamsteDuniya.cpp
 #include <iostream>
 int main() { 
     std::cout << "Hello Duniya" << std::endl;
     return 0;
 }
-```
+
 
 ### Pass by Value vs. Reference
-```cpp
+cpp
 // Code/passbyvalue-and-refrence/main.cpp
 #include <iostream>
 using namespace std;
@@ -81,10 +77,10 @@ int main() {
     cout << str << endl;
     return 0;
 }
-```
+
 
 ### Object-Oriented Programming (Inheritance)
-```cpp
+cpp
 // Code/opps/Inheritance/main.cpp
 #include <iostream>
 using namespace std;
@@ -131,7 +127,6 @@ public:
         cout << "Im inside Car dtor" << endl;
     }
 };
-```
 
 ## 🤝 Contributing
 
