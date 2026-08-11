@@ -1,7 +1,7 @@
 
-# CodeWithCPP
+# 💻 CodeWithCPP
 
-A structured C++ learning repository featuring progressive examples, practice problems, and a CMake-based build system. This project covers core programming concepts, object-oriented principles, and memory management through practical code samples.
+A structured C++ learning repository featuring progressive examples, practice problems, and VS Code configurations. This project covers core programming concepts, object-oriented principles, and memory management through practical code samples.
 ## 📁 Repository Structure
 
 ```
@@ -31,12 +31,23 @@ Install a C++ compiler and CMake:
 bash
 git clone https://github.com/imaakarsh/CodeWithCPP.git
 cd CodeWithCPP
-# CMake build
+
+# 🏗️ CMake Build
+
+To build the entire project using CMake, run the following commands from the root directory:
+
+bash
 mkdir build && cd build
 cmake ..
 cmake --build .
-# Or manual compilation
+
+# 🛠️ Manual Compilation
+
+Alternatively, you can compile individual C++ source files directly using `g++`:
+
+bash
 g++ Code/basic-c/NamsteDuniya.cpp -o NamsteDuniya
+./NamsteDuniya
 
 ## 🛠️ Key Features
 
