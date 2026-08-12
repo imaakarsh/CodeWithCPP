@@ -4,20 +4,30 @@
 A structured C++ learning repository featuring progressive examples, practice problems, and VS Code configurations. This project covers core programming concepts, object-oriented principles, and memory management through practical code samples.
 ## 📁 Repository Structure
 
-```
+
 CodeWithCPP/
 ├── .vscode/                  # VS Code configuration
-├── CMakeLists.txt            # Root build configuration
 ├── Code/                     # Core learning modules
+│   ├── 2d-array/             # 2D array implementations
+│   ├── STL/                  # Standard Template Library (vector, etc.)
+│   ├── array/                # 1D array operations and questions
 │   ├── basic-c/              # Core syntax & "Hello World"
-│   ├── arrays/               # 1D/2D arrays and operations
-│   ├── controlflow/          # Conditional logic & loops
-│   ├── functions/            # Function definitions and scope
-│   ├── memory/               # Pointers and dynamic allocation
-│   ├── oop/                  # OOP concepts (classes, inheritance)
-│   └── ...                   # Additional topic folders
-└── problems/                 # Practice challenges
-```
+│   ├── chararray/            # Character arrays
+│   ├── classes-objects/      # Classes and objects basics
+│   ├── controlflowstatemwnt/ # Switch cases and conditional logic
+│   ├── functions/            # Function definitions, scope, and homework
+│   ├── input/                # Input handling
+│   ├── local-global-variable/# Variable scope demonstrations
+│   ├── loops/                # Loop structures (while, do-while, continue)
+│   ├── operators/            # Operators usage
+│   ├── opps/                 # OOP concepts (Abstraction, Encapsulation, Inheritance, Polymorphism)
+│   ├── passbyvalue-and-refrence/ # Parameter passing methods
+│   ├── pointers/             # Pointers and dynamic memory allocation
+│   ├── reference-variable/   # Reference variables
+│   ├── string/               # String manipulation
+│   ├── ternaryopertaors/     # Ternary operators
+│   └── variable-datatypes/   # Variables, data types, and type casting
+└── problems/                 # Practice challenges and questions
 
 ## 🚀 Getting Started
 
@@ -136,6 +146,35 @@ public:
 
     ~Car() {
         cout << "Im inside Car dtor" << endl;
+    }
+};
+
+
+### Standard Template Library (STL) - 2D Vector
+cpp
+// Code/STL/vector.cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    // 2D vector initialization (5 rows, 4 columns, initialized to 0)
+    vector<vector<int>> arr(5, vector<int>(4, 0));
+    int totalRows = arr.size();
+    return 0;
+}
+
+
+### Practice Problems - Print Counting
+cpp
+// problems/questions/206. Print Counting from 1 to Nc.cpp
+class Solution {
+public:
+    void printCounting(int n) {
+        // Implement the loop logic to print numbers from 1 to n
+        for (int i = 1; i <= n; i++) {
+            return i;
+        }
     }
 };
 
